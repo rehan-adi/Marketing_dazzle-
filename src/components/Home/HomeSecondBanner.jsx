@@ -5,7 +5,7 @@ function HomeSecondBanner() {
     <div className="w-full py-20">
       <div className="flex items-center flex-col lg:flex-row px-4 lg:px-20 justify-center">
         <div className="lg:w-[70vw] ">
-          <h3 className="px-3 py-2 flex justify-center items-center gap-2 rounded-md font-semibold text-center text-xs text-[#B5B5B5] w-2/3 lg:w-[15vw] bg-[#FFFFFF0D]">
+          <h3 className="px-3 py-2 flex justify-center items-center gap-2 rounded-md font-semibold text-center text-xs text-[#B5B5B5] w-[55vw] lg:w-[15vw] bg-[#FFFFFF0D]">
             <span className="inline-block">
               <svg
                 fill="#3067FF"
@@ -46,7 +46,7 @@ function HomeSecondBanner() {
             step has been fueled by a relentless commitment
           </p>
         </div>
-        <div className="lg:w-[35vw] w-full flex flex-col lg:mt-0 mt-12 gap-9 lg:gap-16 justify-center lg:items-center items-start">
+        <div className="lg:w-[35vw] w-full flex flex-col lg:mt-0 mt-12 gap-9 lg:gap-12 justify-center lg:items-center items-start">
           <div className="flex gap-8">
             <span>
               <svg

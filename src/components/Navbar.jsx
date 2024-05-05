@@ -4,6 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa6";
 
+
 const Navbar = () => {
   const [showBar, setShowBar] = useState(false);
 
@@ -53,8 +54,8 @@ const Navbar = () => {
 
         {/* Sidebar toggle icon */}
         <div className="focus:outline-none lg:flex hidden justify-center items-center">
-          <div className="bg-[#3067FF0D] flex justify-center border border-white border-opacity-5 items-center gap-5 py-1 px-6">
-            <div className="bg-[#3567c50d] p-1">
+          <div className="bg-[#3067FF0D] flex justify-center border border-white border-opacity-5 items-center gap-5 py-1 px-4">
+            <div className="bg-[#1E1F1F] rounded-md p-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="23"

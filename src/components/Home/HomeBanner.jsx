@@ -1,11 +1,13 @@
 import React from "react";
+import { IoStar } from "react-icons/io5";
+import { FaStarHalfAlt } from "react-icons/fa";
 
 function HomeBanner() {
   return (
     <div className="w-full z-20">
       <div className=" flex justify-start px-4 lg:px-20 gap-7 items-center max-h-fit pt-36 pb-16 lg:h-screen">
         <div className="lg:w-2/4 w-[90vw]">
-          <h3 className="px-3 py-2 flex justify-center items-center gap-2 rounded-md font-semibold text-center text-xs text-[#B5B5B5] w-2/3 lg:w-1/3 bg-[#FFFFFF0D]">
+          <h3 className="px-3 py-2 flex justify-center items-center gap-2 rounded-md font-semibold text-center text-xs text-[#B5B5B5] w-[55vw] lg:w-1/3 bg-[#FFFFFF0D]">
             <span className="inline-block">
               <svg
                 fill="#3067FF"
@@ -48,7 +50,10 @@ function HomeBanner() {
               Free Consultation
             </button>
             <div className="flex flex-col gap-1">
+              <div className="flex items-center justify-center gap-5">
               <span className="text-[#B5B5B5]">Rivew On</span>
+              <span className="flex gap-1">< IoStar  className="text-red-500"/>< IoStar className="text-red-500"/>< IoStar className="text-red-500"/>< IoStar className="text-red-500"/>< FaStarHalfAlt className="text-red-500" /></span>
+              </div>
               <div className="flex  items-center gap-4">
                 <img
                   src="	https://zenfy-next-js.vercel.app/assets/img/home1/icon/clutch-logo-white.svg"
@@ -67,7 +72,7 @@ function HomeBanner() {
         </div>
       </div>
       <div className="bg-[#1E1E1F] py-5 flex justify-center items-center">
-        <marquee direction="left" behavior="scroll" scrollamount="8">
+        <marquee direction="left" behavior="scroll" scrollamount="6">
         <svg xmlns="http://www.w3.org/2000/svg" fill="#3067FF" className="inline-block mr-5" width="17" height="17" viewBox="0 0 17 17"><path d="M17 8.5L14.6578 6.84722L15.8666 4.25001L13.0051 3.99493L12.75 1.1334L10.1528 2.34215L8.5 0L6.84722 2.34215L4.25001 1.1334L3.99493 3.99493L1.1334 4.25001L2.34215 6.84722L0 8.5L2.34215 10.1528L1.1334 12.75L3.99493 13.0051L4.25001 15.8666L6.84722 14.6578L8.5 17L10.1528 14.6578L12.75 15.8666L13.0051 13.0051L15.8666 12.75L14.6578 10.1528L17 8.5Z"></path></svg>
           <span className="mr-4 font-semibold text-xl text-[#B5B5B5]">WELCOME TO INNOVATETECH SOLUTIONS</span>
           <svg xmlns="http://www.w3.org/2000/svg"  fill="#3067FF" className="inline-block mr-5" width="17" height="17" viewBox="0 0 17 17"><path d="M17 8.5L14.6578 6.84722L15.8666 4.25001L13.0051 3.99493L12.75 1.1334L10.1528 2.34215L8.5 0L6.84722 2.34215L4.25001 1.1334L3.99493 3.99493L1.1334 4.25001L2.34215 6.84722L0 8.5L2.34215 10.1528L1.1334 12.75L3.99493 13.0051L4.25001 15.8666L6.84722 14.6578L8.5 17L10.1528 14.6578L12.75 15.8666L13.0051 13.0051L15.8666 12.75L14.6578 10.1528L17 8.5Z"></path></svg>
