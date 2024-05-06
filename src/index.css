@@ -27,3 +27,12 @@ li a::after {
     width: calc(100% - 20px);
     background-color: #afafae;
   }
+
+  .hover-move-up {
+    transition: transform 1s cubic-bezier(0.25, 0.1, 0.25, 1); /* Adjust the cubic-bezier values for desired smoothness */
+}
+
+.hover-move-up:hover {
+    transform: translateY(-10px);
+}
+
