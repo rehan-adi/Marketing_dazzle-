@@ -3,6 +3,7 @@ import HomeBanner from '../components/Home/HomeBanner'
 import HomeSecondBanner from '../components/Home/HomeSecondBanner'
 import HomeSolutions from '../components/Home/HomeSolutions'
 import HomeInovation from '../components/Home/HomeInovation'
+import HomeConnectForm from '../components/Home/HomeConnectForm'
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         <HomeSecondBanner />
         <HomeSolutions />
         <HomeInovation />
+        <HomeConnectForm />
     </div>
   )
 }

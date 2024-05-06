@@ -2,7 +2,7 @@ import React from "react";
 
 function HomeInovation() {
   return (
-    <div className="w-full px-20 py-20">
+    <div className="w-full lg:px-20 px-4 lg:pb-40 py-16 lg:pt-20">
       <div className="flex justify-center items-center flex-col">
         <h3 className="px-3 py-2 flex justify-center items-center gap-2 rounded-md font-semibold text-center text-xs text-[#3067FF] w-[55vw] lg:w-[15vw]">
           <span className="inline-block">
@@ -33,14 +33,14 @@ function HomeInovation() {
             </svg>
           </span>
         </h3>
-        <h1 className="text-5xl mt-3 font-bold">The Innovation Diaries</h1>
-        <div className="mt-16 flex items-center gap-3 justify-between">
-          <div class="container w-[29vw] h-[65vh] relative overflow-hidden">
+        <h1 className="lg:text-5xl mt-3 text-3xl font-bold">The Innovation Diaries</h1>
+        <div className="mt-16 flex items-center flex-col lg:flex-row gap-3 justify-between">
+          <div class="container w-[95vw] lg:w-[29vw] h-[56vh] lg:h-[65vh] relative overflow-hidden">
             <div class="image-container overflow-hidden">
               <img
                 src="https://images.pexels.com/photos/22858523/pexels-photo-22858523/free-photo-of-s-curve-chicago.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt=""
-                class="w-full h-[40vh]  transition-transform overflow-hidden duration-500 transform hover:scale-105"
+                class="w-full h-[31vh] lg:h-[40vh] transition-transform overflow-hidden duration-500 transform hover:scale-105"
               />
             </div>
             <div className="py-5">
@@ -79,12 +79,12 @@ function HomeInovation() {
               </a>
             </div>
           </div>
-          <div class="container w-[29vw] h-[65vh] relative overflow-hidden">
+          <div class="container w-[95vw] lg:w-[29vw] h-[56vh]  lg:h-[65vh] relative overflow-hidden">
             <div class="image-container overflow-hidden">
               <img
                 src="https://images.pexels.com/photos/18889067/pexels-photo-18889067/free-photo-of-underground-railway-station.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
                 alt=""
-                class="w-full h-[40vh] transition-transform overflow-hidden duration-500 transform hover:scale-105"
+                class="w-full h-[31vh] lg:h-[40vh] transition-transform overflow-hidden duration-500 transform hover:scale-105"
               />
             </div>
             <div className="py-5">
@@ -123,12 +123,12 @@ function HomeInovation() {
               </a>
             </div>
           </div>
-          <div class="container w-[29vw] h-[65vh] relative overflow-hidden">
+          <div class="container w-[95vw] lg:w-[29vw] h-[56vh] lg:h-[65vh] relative overflow-hidden">
             <div class="image-container overflow-hidden">
               <img
                 src="https://images.pexels.com/photos/19606362/pexels-photo-19606362/free-photo-of-blurred-photo-of-a-beach-at-dusk.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
                 alt=""
-                class="w-full h-[40vh] transition-transform overflow-hidden duration-500 transform hover:scale-105"
+                class="w-full h-[31vh] lg:h-[40vh] transition-transform overflow-hidden duration-500 transform hover:scale-105"
               />
             </div>
             <div className="py-5">
