@@ -4,6 +4,7 @@ import HomeSecondBanner from '../components/Home/HomeSecondBanner'
 import HomeSolutions from '../components/Home/HomeSolutions'
 import HomeInovation from '../components/Home/HomeInovation'
 import HomeConnectForm from '../components/Home/HomeConnectForm'
+import HomeBlueprint from '../components/Home/HomeBlueprint'
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
         <HomeBanner />
         <HomeSecondBanner />
         <HomeSolutions />
+        <HomeBlueprint />
         <HomeInovation />
         <HomeConnectForm />
     </div>

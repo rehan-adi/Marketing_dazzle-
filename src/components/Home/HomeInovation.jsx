@@ -82,7 +82,7 @@ function HomeInovation() {
           <div class="container w-[95vw] lg:w-[29vw] h-[56vh]  lg:h-[65vh] relative overflow-hidden">
             <div class="image-container overflow-hidden">
               <img
-                src="https://images.pexels.com/photos/18889067/pexels-photo-18889067/free-photo-of-underground-railway-station.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load"
+                src="https://zenfy-next-js.vercel.app/assets/img/home1/blog-img2.jpg"
                 alt=""
                 class="w-full h-[31vh] lg:h-[40vh] transition-transform overflow-hidden duration-500 transform hover:scale-105"
               />
