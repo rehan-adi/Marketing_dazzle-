@@ -3,6 +3,7 @@ import { BsInstagram } from "react-icons/bs";
 import { FaFacebook } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import { FaLinkedin } from "react-icons/fa6";
+import { Link } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -31,24 +32,24 @@ const Navbar = () => {
         {/* Navigation links */}
         <ul className="lg:flex hidden justify-center font-semibold text-base text-[#afafae] space-x-6">
           <li className="relative">
-            <a href="/" className="px-3 py-2">
+            <Link to="/" className="px-3 py-2">
               Home
-            </a>
+            </Link>
           </li>
           <li className="relative">
-            <a href="/about" className="px-3 py-2 ">
+            <Link to="/about" className="px-3 py-2 ">
               About
-            </a>
+            </Link>
           </li>
           <li className="relative">
-            <a href="/services" className="px-3 py-2">
+            <Link to="/services" className="px-3 py-2">
               Services
-            </a>
+            </Link>
           </li>
           <li className="relative">
-            <a href="/contact" className="px-3 py-2">
+            <Link to="/contact" className="px-3 py-2">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
 
